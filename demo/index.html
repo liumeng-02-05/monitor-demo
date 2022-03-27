@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="a21b1" name="spm-id"></meta>
+  <title>A页面</title>
+</head>
+
+<body onLoad="onLoader()" data-imooc-spm="imooc-a">
+  <div data-imooc-spm="201867">
+  <a >1<a>2</a></a>
+  <a>3</a>
+  <a>4</a>
+  <a>5</a>
+  埋点测试</div>
+  <div onclick="customEvent(this)">自定义事件上报</div>
+  <div onclick="customEvent(this,'exposure')" class="exposure">自定义事件之曝光埋点上报</div>
+  <script src="./demo.js"></script>
+</body>
+
+</html>
